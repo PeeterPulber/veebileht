@@ -1,0 +1,38 @@
+body {
+    background-color: #4a4e52;
+    background-image: url("https://m.media-amazon.com/images/I/61ciCRR5+vL._UXNaN_FMjpg_QL85_.jpg");
+}
+
+h1 {
+    color: #820004;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 36px;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(231, 130, 130);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 26px;
+    text-align: center;
+}
+
+p {
+    color: white;
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div.container {
+    text-align: center;
+    background-image: url("https://www.thoughtco.com/thmb/g8-LEJFf7dJDgH9ixMdndxow0Ho=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Giles-Corey-2636704-56aa21ac3df78cf772ac8488.jpg");
+    background-size: contain;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: #aed641;
+}
+
+ol {
+    display: inline-block;
+    text-align: left;
+}
