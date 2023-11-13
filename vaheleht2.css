@@ -3,11 +3,17 @@ html{
     background-size: cover;
 }
 h1{
-    color: green;
+    color:rgb(26, 24, 24);
 }
 h2{
-    color: Blue;
+    color: red;
+    font-size: 40px;
+    
 }
 h3{
-    color: red;
+    color: Blue;
+    font-size: 40px;
 }
+h4{
+    color: green;
+    font-size: 40px;
