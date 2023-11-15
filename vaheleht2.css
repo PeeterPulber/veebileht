@@ -4,16 +4,30 @@ html{
 }
 h1{
     color:rgb(26, 24, 24);
+    text-align: center;
+    font-size: 350%  ;
+    -webkit-text-fill-color: grey;
+    -webkit-text-stroke: 1.5px;
 }
-h2{
-    color: red;
-    font-size: 40px;
-    
+
+img{
+    padding-top: 20px;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    box-shadow: 3px 10px rgba(0,0,0,0.6);
 }
-h3{
-    color: Blue;
-    font-size: 40px;
+.gallery {
+    float: left;
+    width: 33.33%;
 }
-h4{
-    color: green;
-    font-size: 40px;
+.desc {
+    font-size: 280%;
+    color: aliceblue;
+    -webkit-text-fill-color: rgb(0, 0, 0);
+    -webkit-text-stroke: 0.4px;
+}
+img:hover {
+    transition-duration: 0.3s;
+    filter: brightness(65%);
+}   
