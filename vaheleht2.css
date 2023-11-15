@@ -11,7 +11,6 @@ h1{
 }
 
 img{
-    padding-top: 20px;
     border-radius: 50%;
     width: 300px;
     height: 300px;
@@ -19,7 +18,9 @@ img{
 }
 .gallery {
     float: left;
-    width: 33.33%;
+    width: 15%;
+    padding-left: 8.33%;
+    padding-right: 8.33%
 }
 .desc {
     font-size: 280%;
