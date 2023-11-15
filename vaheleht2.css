@@ -27,6 +27,9 @@ img{
     color: aliceblue;
     -webkit-text-fill-color: rgb(0, 0, 0);
     -webkit-text-stroke: 0.4px;
+    position:relative;
+    text-align: center;
+    left:14%;   
 }
 img:hover {
     transition-duration: 0.3s;
