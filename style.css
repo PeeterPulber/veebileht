@@ -6,7 +6,7 @@ body {
 h1 {
     color: #820004;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 36px;
+    font-size: 50px;
     text-align: center;
 }
 
@@ -36,3 +36,31 @@ ol {
     display: inline-block;
     text-align: left;
 }
+
+
+/*Vaheleht 2 asjad*/
+img{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    box-shadow: 3px 10px rgba(0,0,0,0.6);
+}
+.gallery {
+    float: left;
+    width: 15%;
+    padding-left: 8.33%;
+    padding-right: 8.33%
+}
+.desc {
+    font-size: 280%;
+    color: aliceblue;
+    -webkit-text-fill-color: rgb(0, 0, 0);
+    -webkit-text-stroke: 0.4px;
+    position:relative;
+    text-align: center;
+    left:14%;   
+}
+img:hover {
+    transition-duration: 0.3s;
+    filter: brightness(65%);
+}   

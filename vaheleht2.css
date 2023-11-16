@@ -24,7 +24,7 @@ img{
 }
 .desc {
     font-size: 280%;
-    color: aliceblue;
+    color: rgb(117, 137, 87);
     -webkit-text-fill-color: rgb(0, 0, 0);
     -webkit-text-stroke: 0.4px;
     position:relative;
