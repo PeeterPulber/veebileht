@@ -1,6 +1,5 @@
 body {
     background-color: #4a4e52;
-    /*background-image: url("https://m.media-amazon.com/images/I/61ciCRR5+vL._UXNaN_FMjpg_QL85_.jpg");*/
 }
 
 h1 {
@@ -23,23 +22,45 @@ p {
     font-family: 'Courier New', Courier, monospace;
 }
 
-div.container {
-    text-align: center;
-    background-image: url("https://www.thoughtco.com/thmb/g8-LEJFf7dJDgH9ixMdndxow0Ho=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Giles-Corey-2636704-56aa21ac3df78cf772ac8488.jpg");
-    background-size: contain;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: bold;
-    color: #aed641;
+.päisenupp {
+    background-color: #185e2a;
+    color: white;
+    float: left;
+    border-color: black;
 }
+
 
 ol {
     display: inline-block;
     text-align: left;
 }
 
+.päis {
+   width: 100%;
+   height: 100vh; 
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #aed641;
+}
 
 /*Vaheleht 2 asjad*/
-img{
+.vl2img{
     border-radius: 50%;
     width: 300px;
     height: 300px;
