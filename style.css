@@ -28,6 +28,11 @@ div {
     padding: 0;
 }
 
+img {
+    height: auto;
+    width: 100%;
+}
+
 .top {
     text-align: center;
     background-color: #1a4425;
@@ -51,6 +56,14 @@ div {
 
 .päisenupp:hover {
     background-color: #1a4425;
+}
+
+.rida {
+    display: flex;
+}
+
+.tulp {
+    flex: 50%;
 }
 
 ol {
