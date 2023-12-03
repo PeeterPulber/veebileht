@@ -66,6 +66,10 @@ img {
     flex: 50%;
 }
 
+.tulp p {
+    align-items: center;
+}
+
 ol {
     display: inline-block;
     text-align: left;
