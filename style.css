@@ -89,34 +89,3 @@ li {
 nav ul li {
     width: 100%;
 }
-
-/*Galerii asjad*/
-
-.ulemgalerii {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-div.galerii {
-    margin: 5px;
-    border: 1px solid black;
-    float: left; 
-    width: calc(33% - 10px);
-    display: flex;
-    flex-direction: column;
-}
-
-div.galerii:hover {
-    border: 1px solid white;
-}
-
-div.galerii img{
-    width: 100%;
-    height: auto;
-}
-
-div.kirjeldus {
-    padding: 15px;
-    text-align: center;
-}
