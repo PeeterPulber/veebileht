@@ -58,18 +58,6 @@ img {
     background-color: #1a4425;
 }
 
-.rida {
-    display: flex;
-}
-
-.tulp {
-    flex: 50%;
-}
-
-.tulp p {
-    text-align: center;
-}
-
 ol {
     display: inline-block;
     text-align: left;

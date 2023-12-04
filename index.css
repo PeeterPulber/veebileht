@@ -1,3 +1,15 @@
 video {
     width: 100%;
 }
+
+.rida {
+    display: flex;
+}
+
+.tulp {
+    flex: 50%;
+}
+
+.tulp p {
+    text-align: center;
+}
