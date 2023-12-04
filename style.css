@@ -90,34 +90,6 @@ nav ul li {
     width: 100%;
 }
 
-/*Vaheleht 2 asjad*/
-.vl2img{
-    border-radius: 50%;
-    width: 300px;
-    height: 300px;
-    box-shadow: 3px 10px rgba(0,0,0,0.6);
-}
-.gallery {
-    float: left;
-    width: 15%;
-    padding-left: 8.33%;
-    padding-right: 8.33%
-}
-.desc {
-    font-size: 280%;
-    color: aliceblue;
-    -webkit-text-fill-color: rgb(0, 0, 0);
-    -webkit-text-stroke: 0.4px;
-    position:relative;
-    text-align: center;
-    left:14%;   
-}
-.vl2img:hover {
-    transition-duration: 0.3s;
-    filter: brightness(65%);
-}   
-
-
 /*Galerii asjad*/
 
 .ulemgalerii {

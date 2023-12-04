@@ -1,16 +1,4 @@
-html{
-    background-image: url("https://wallpaper-house.com/data/out/4/wallpaper2you_31419.jpg");
-    background-size: cover;
-}
-h1{
-    color:rgb(26, 24, 24);
-    text-align: center;
-    font-size: 350%  ;
-    -webkit-text-fill-color: grey;
-    -webkit-text-stroke: 1.5px;
-}
-
-img{
+.vl2img{
     border-radius: 50%;
     width: 300px;
     height: 300px;
@@ -24,14 +12,14 @@ img{
 }
 .desc {
     font-size: 280%;
-    color: rgb(117, 137, 87);
+    color: aliceblue;
     -webkit-text-fill-color: rgb(0, 0, 0);
     -webkit-text-stroke: 0.4px;
     position:relative;
     text-align: center;
     left:14%;   
 }
-img:hover {
+.vl2img:hover {
     transition-duration: 0.3s;
     filter: brightness(65%);
 }   
